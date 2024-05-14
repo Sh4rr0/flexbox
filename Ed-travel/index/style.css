@@ -18,13 +18,13 @@ html{
     background-color: darkblue; 
     padding: 20px;
     display: flex;
-    align-items: center;
-    align-content:space-around ;
-    justify-content:space-around;
+    justify-content: center;
+   align-items: center;
+   align-content: center;
 }
 .logo{
     width: 6rem;
-    align-items: flex-end;
+   display: flex;
     border-radius: 100%;
      
 }
@@ -45,6 +45,10 @@ padding: 20px;
 color: #f0f0f0;
 border-bottom: #f0f0f0;
 border-radius: 10px;
+align-content: center;
+align-items: center;
+justify-content: center;
+display: flex;
 }
 
 
@@ -116,7 +120,11 @@ button img{
 }
 input{
     border-radius: 2rem;
+
 }
 select{
     border-radius: 1rem;
+}
+.numero{
+    width: 2rem;
 }
