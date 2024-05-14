@@ -1,0 +1,10 @@
+SELECT '2001-10-05';
+SELECT date '2001-10-05';
+SELECT date 'now';
+SELECT time 'now';
+SELECT timestamp '2001-10-05';
+SELECT timestamp 'now';
+SELECT timestamp with time zone 'now';
+SELECT timestamp 'now' at time zone 'utc';
+SET timezone TO 'utc';
+SET timezone TO 'gmt+7';

@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.head{
+    position: relative;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    margin: .5rem;
+    max-width: 5rem;
+}
+
+.log{
+    max-width: 350px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    background: bisque;
+    padding: .5rem;
+    border-radius: 15px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.822),
+        rgba(0, 0, 0, 0.445)
+    )
+    ,url("https://www.wallpapertip.com/wmimgs/40-409511_hd-desktop-technology-wallpaper-backgrounds-for-download-background.jpg");
+/* no se repita img y quede estatica  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.article {
+    margin: 2rem;
+    z-index: 1;
+    box-shadow: 2px 2px 15px black;
+    background-image: linear-gradient(
+        rgb(0, 0, 0),
+        rgba(0, 0, 0, 0.281)
+      ),
+      url("https://img.phonandroid.com/2022/07/Galaxy-S23-Technizo-concept.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 2rem;
+  }
+
+  article img{
+    height: 63vh;
+    border-radius: 2rem;
+  }
+  
+  .cont {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2; 
+}
+  
+  svg{
+    position: absolute; 
+    z-index: 0;
+}
+
+.svg{
+    margin: 0%;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+    background:#5f9ea0;
+    position: absolute; 
+    z-index: 0;
+}
+.caja{
+    color: white;
+    padding: 2rem;
+}
+
+.caja h2{
+    margin: 1rem;
+}
+
+
+
+
+.button{
+    padding: .5rem;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    background-color: red;
+    transition: .4s;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 1px 1px 10px 10px rgba(255, 0, 0, 0.452);
+}
+
+
+.description{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.description h3{
+    color: red;
+    margin: .5rem;
+    font-size: 1.7rem;
+}
+
+.description div{
+    margin: 1rem;
+    z-index: 1;
+    box-shadow: 2px 2px 15px black;
+    max-width: 25%;
+    background: linear-gradient(
+        rgb(0, 0, 0),
+        rgba(0, 0, 0, 0.281)
+      );
+    border-radius: 2rem;
+}
+
+
+#description{
+    background: #5f9ea0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,7 @@
+SELECT 1 + 2;
+SELECT 2 * 2;
+SELECT 1 / 2;
+SELECT 1.2::float / 2;
+SELECT 1::float / 2;
+SELECT 5 / 2;
+SELECT 5 % 2;

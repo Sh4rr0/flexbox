@@ -1,0 +1,1 @@
+DELETE FROM ususarios WHERE id >= 1000;

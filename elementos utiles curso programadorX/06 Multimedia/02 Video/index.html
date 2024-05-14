@@ -1,0 +1,16 @@
+<!-- 720x480 h.264 codec mp4 file (formatos de video) h.246 es patentado, el futuro será WebM o AV1 -->
+<video controls src="video.mp4"></video>
+<video controls loop autoplay>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.webm" type="video/webm">
+    <!-- Subtítulos: Requeridos por la ley en algunos lugares -->
+    <track src="video.es.vtt" kind="subtitles" label="Español" srclang="es" default></track>
+    <track src="video.en.vtt" kind="captions" label="English" srclang="en" ></track>
+    <!-- Descripciones para accesibilidad -->
+    <track src="descriptions.en.vtt" kind="descriptions" label="Descriptions" srclang="en"></track>
+    <!-- Capítulos -->
+    <track src="chapters.en.vtt" kind="chapters" label="Capítulos" srclang="es"></track>
+    <!-- Capítulos -->
+    Lo sentimos. Tu navegador no soporta este formato.
+</video>
+<!-- Resolución en demanda (Adaptive Bitrate Streaming): HBO, Netflix -->

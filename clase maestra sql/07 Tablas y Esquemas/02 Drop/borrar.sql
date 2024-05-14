@@ -1,0 +1,3 @@
+DROP TABLE prueba;
+
+DROP TABLE IF EXISTS prueba;

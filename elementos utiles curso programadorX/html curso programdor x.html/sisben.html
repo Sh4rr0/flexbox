@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #dia{
+        width: 30px;
+    }
+    #mes{
+        width: 40px;
+    }
+    #año {
+        width: 50px;
+    }
+    
+    #label{
+      display: block;
+      margin-bottom: 20px;
+    }
+    #input{
+        display: inline-block;
+      margin-bottom: 10px;
+      
+    }
+    form {
+      background-color: #dbd4d4;
+      border: 1px solid #1a1818;
+      padding: 20px;
+      width: 800px;
+      margin: 0 auto;
+      margin-bottom: 30px; 
+    }
+
+</style>
+<body>
+    <form>
+    <fieldset>
+        <legend><h1>Reporte nueva solicitud sisben</h1></legend>
+    fecha:
+        <label for="dia"></label>
+        <input type="datetime" name="DD" id="dia" placeholder="DD"> 
+        <label for="mes"></label>
+        <input type="datetime" name="MM" id="mes" placeholder="MM">
+        <label for="año"></label>
+        <input type="datetime" name="AAAA" id="año" placeholder="AAAA"><br>
+        <br>
+        <Label for="Municipio">Municipio:</Label>
+        <input type="text" name="Municipio" id="Municipio" placeholder="Municipio">
+        <label for="Departamento">Departamento:</label>
+        <input type="text" name="Departamento" id="Departamento" placeholder="Departamento">
+       
+    </fieldset>
+    </form>
+    
+<form action="">
+    <fieldset>
+        <legend><h3>Datos del solicitante</h3></legend>
+<label for="primernombre">Primer nombre:</label>
+<input type="text" name="Primer nombre" id="primernombre" >
+<label for="segundonombre">Segundo Nombre:</label>
+<input type="text" name="Segundo Nombre" id="segundonombre">
+<br>
+<br>
+<label for="primerapellido">Primer Apellido:</label>
+<input type="text" name="Primer Apellido" id="primerapellido">
+<label for="segundoapellido">Segundo Apellido:</label>
+<Input type="text">
+<label for="sexo">Sexo:</label>
+M
+<input type="checkbox" name="M" id="M">
+F
+<input type="checkbox" name="F" id="F"><br>
+<br>
+<label for="Extranjeria">Extranjeria:</label>
+<input type="checkbox" name="Extranjeria" id="Extranjeria">
+<label for="Tipo de documento">Tipo de documento:</label>
+<input type="text" name="Tipo de documento" id="Tipo de documento">
+<label for="Numero de documento">Numero de documento:</label>
+<input type="datetime" name="Numero de documento" id="Numero de documento">
+<br>
+<br>
+<label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+<input type="date" name="Fecha de nacimiento" id="Fecha de nacimiento">
+<label for="Fecha de expedicion">Fecha de expedicion:</label>
+<input type="date" name="Fecha de expedicion" id="Fecha de expedicion"><br>
+<br>
+<label for="Lugar de expedicion">Lugar de expedicion:</label>
+<input type="text" name="Lugar de expedicion" id="Lugar de expedicion">
+<br>
+<br>
+<label for="Departamento2">Departamento de residencia:</label>
+<input type="text" name="Departamento2" id="Departamento2">
+<label for="Municipio2">Municipio de residencia:</label>
+<Input type="text" name="Municipio2" id="Municipio2"><br>
+    <br>
+<label for="Direccion de domicilio">Direccion de domicilio:</label>
+<input type="text" name="Direccion de domicilio" id="Direccion de domicilio"><br>
+<br>
+<label for="Correo electronico">Correo electronico:</label>
+<input type="email" name="Correo electronico" id="Correo electronico">
+<label for="Telefono">Telefono:</label>
+<input type="text" name="Telefono" id="Telefono">
+<br>
+<label for="Enviar"></label>
+<input type="submit" value="Enviar">
+
+</fieldset>
+</form>
+</body>
+</html>
